@@ -4,7 +4,7 @@
 
 	"features": {
 		// See all possible options here https://github.com/devcontainers/features/tree/main/src/docker-in-docker
-		"ghcr.io/devcontainers/features/docker-in-docker:2": {
+		"ghcr.io/devcontainers/features/kubectl-helm-minikube:1": {
 			"moby": "false"
 		}
 	},
