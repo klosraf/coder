@@ -1,4 +1,4 @@
-FROM rust:slim@sha256:9abf10cc84dfad6ace1b0aae3951dc5200f467c593394288c11db1e17bb4d349 AS rust-utils
+FROM rust:slim@sha256:e556a015ecb064ca6b3b74bceb36a54deaf88afbe2956b8fe3e445da446d9cf8 AS rust-utils
 # Install rust helper programs
 # ENV CARGO_NET_GIT_FETCH_WITH_CLI=true
 ENV CARGO_INSTALL_ROOT=/tmp/
