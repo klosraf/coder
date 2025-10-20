@@ -1,6 +1,6 @@
 module github.com/coder/coder/v2
 
-go 1.22.9
+go 1.23.0
 
 // Required until a v3 of chroma is created to lazily initialize all XML files.
 // None of our dependencies seem to use the registries anyways, so this
@@ -89,7 +89,7 @@ require (
 	github.com/chromedp/chromedp v0.11.0
 	github.com/cli/safeexec v1.0.1
 	github.com/coder/flog v1.1.0
-	github.com/coder/guts v1.0.1
+	github.com/coder/guts v1.6.1
 	github.com/coder/pretty v0.0.0-20230908205945-e89ba86370e0
 	github.com/coder/quartz v0.1.2
 	github.com/coder/retry v1.5.1
@@ -169,7 +169,7 @@ require (
 	github.com/spf13/afero v1.12.0
 	github.com/spf13/pflag v1.0.5
 	github.com/sqlc-dev/pqtype v0.3.0
-	github.com/stretchr/testify v1.10.0
+	github.com/stretchr/testify v1.11.0
 	github.com/swaggo/http-swagger/v2 v2.0.1
 	github.com/swaggo/swag v1.16.2
 	github.com/tidwall/gjson v1.18.0
@@ -189,16 +189,16 @@ require (
 	go.uber.org/goleak v1.3.1-0.20240429205332-517bace7cc29
 	go.uber.org/mock v0.5.0
 	go4.org/netipx v0.0.0-20230728180743-ad4cb58a6516
-	golang.org/x/crypto v0.33.0
+	golang.org/x/crypto v0.41.0
 	golang.org/x/exp v0.0.0-20240808152545-0cdaa3abc0fa
-	golang.org/x/mod v0.23.0
-	golang.org/x/net v0.35.0
+	golang.org/x/mod v0.27.0
+	golang.org/x/net v0.43.0
 	golang.org/x/oauth2 v0.26.0
-	golang.org/x/sync v0.11.0
-	golang.org/x/sys v0.30.0
-	golang.org/x/term v0.29.0
-	golang.org/x/text v0.22.0 // indirect
-	golang.org/x/tools v0.30.0
+	golang.org/x/sync v0.16.0
+	golang.org/x/sys v0.35.0
+	golang.org/x/term v0.34.0
+	golang.org/x/text v0.28.0 // indirect
+	golang.org/x/tools v0.36.0
 	golang.org/x/xerrors v0.0.0-20240903120638-7835f813f4da
 	google.golang.org/api v0.221.0
 	google.golang.org/grpc v1.70.0
@@ -467,4 +467,14 @@ require (
 	howett.net/plist v1.0.0 // indirect
 	kernel.org/pub/linux/libs/security/libcap/psx v1.2.73 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
+)
+
+require github.com/mark3labs/mcp-go v0.41.1
+
+require (
+	github.com/bahlo/generic-list-go v0.2.0 // indirect
+	github.com/buger/jsonparser v1.1.1 // indirect
+	github.com/invopop/jsonschema v0.13.0 // indirect
+	github.com/wk8/go-ordered-map/v2 v2.1.8 // indirect
+	github.com/yosida95/uritemplate/v3 v3.0.2 // indirect
 )
