@@ -1,6 +1,6 @@
 module github.com/coder/coder/v2
 
-go 1.22.9
+go 1.24.0
 
 // Required until a v3 of chroma is created to lazily initialize all XML files.
 // None of our dependencies seem to use the registries anyways, so this
@@ -119,7 +119,7 @@ require (
 	github.com/go-chi/render v1.0.1
 	github.com/go-jose/go-jose/v4 v4.0.5
 	github.com/go-logr/logr v1.4.2
-	github.com/go-playground/validator/v10 v10.25.0
+	github.com/go-playground/validator/v10 v10.30.0
 	github.com/gofrs/flock v0.12.0
 	github.com/gohugoio/hugo v0.143.0
 	github.com/golang-jwt/jwt/v4 v4.5.1
@@ -189,16 +189,16 @@ require (
 	go.uber.org/goleak v1.3.1-0.20240429205332-517bace7cc29
 	go.uber.org/mock v0.5.0
 	go4.org/netipx v0.0.0-20230728180743-ad4cb58a6516
-	golang.org/x/crypto v0.33.0
+	golang.org/x/crypto v0.46.0
 	golang.org/x/exp v0.0.0-20240808152545-0cdaa3abc0fa
-	golang.org/x/mod v0.23.0
-	golang.org/x/net v0.35.0
+	golang.org/x/mod v0.30.0
+	golang.org/x/net v0.47.0
 	golang.org/x/oauth2 v0.26.0
-	golang.org/x/sync v0.11.0
-	golang.org/x/sys v0.30.0
-	golang.org/x/term v0.29.0
-	golang.org/x/text v0.22.0 // indirect
-	golang.org/x/tools v0.30.0
+	golang.org/x/sync v0.19.0
+	golang.org/x/sys v0.39.0
+	golang.org/x/term v0.38.0
+	golang.org/x/text v0.32.0 // indirect
+	golang.org/x/tools v0.39.0
 	golang.org/x/xerrors v0.0.0-20240903120638-7835f813f4da
 	google.golang.org/api v0.221.0
 	google.golang.org/grpc v1.70.0
@@ -291,7 +291,7 @@ require (
 	github.com/erikgeiser/coninput v0.0.0-20211004153227-1c3628e74d0f // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
 	github.com/fxamacker/cbor/v2 v2.4.0 // indirect
-	github.com/gabriel-vasile/mimetype v1.4.8 // indirect
+	github.com/gabriel-vasile/mimetype v1.4.12 // indirect
 	github.com/go-chi/hostrouter v0.2.0 // indirect
 	github.com/go-ini/ini v1.67.0 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
@@ -467,4 +467,14 @@ require (
 	howett.net/plist v1.0.0 // indirect
 	kernel.org/pub/linux/libs/security/libcap/psx v1.2.73 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
+)
+
+require github.com/mark3labs/mcp-go v0.43.2
+
+require (
+	github.com/bahlo/generic-list-go v0.2.0 // indirect
+	github.com/buger/jsonparser v1.1.1 // indirect
+	github.com/invopop/jsonschema v0.13.0 // indirect
+	github.com/wk8/go-ordered-map/v2 v2.1.8 // indirect
+	github.com/yosida95/uritemplate/v3 v3.0.2 // indirect
 )
