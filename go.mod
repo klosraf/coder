@@ -1,6 +1,6 @@
 module github.com/coder/coder/v2
 
-go 1.22.9
+go 1.23.9
 
 // Required until a v3 of chroma is created to lazily initialize all XML files.
 // None of our dependencies seem to use the registries anyways, so this
@@ -91,7 +91,7 @@ require (
 	github.com/coder/flog v1.1.0
 	github.com/coder/guts v1.0.1
 	github.com/coder/pretty v0.0.0-20230908205945-e89ba86370e0
-	github.com/coder/quartz v0.1.2
+	github.com/coder/quartz v0.3.1
 	github.com/coder/retry v1.5.1
 	github.com/coder/serpent v0.10.0
 	github.com/coder/terraform-provider-coder/v2 v2.1.3
@@ -467,4 +467,11 @@ require (
 	howett.net/plist v1.0.0 // indirect
 	kernel.org/pub/linux/libs/security/libcap/psx v1.2.73 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
+)
+
+require github.com/mark3labs/mcp-go v0.47.1
+
+require (
+	github.com/google/jsonschema-go v0.4.2 // indirect
+	github.com/yosida95/uritemplate/v3 v3.0.2 // indirect
 )
