@@ -1,6 +1,6 @@
 module github.com/coder/coder/v2
 
-go 1.22.9
+go 1.25.5
 
 // Required until a v3 of chroma is created to lazily initialize all XML files.
 // None of our dependencies seem to use the registries anyways, so this
@@ -169,7 +169,7 @@ require (
 	github.com/spf13/afero v1.12.0
 	github.com/spf13/pflag v1.0.5
 	github.com/sqlc-dev/pqtype v0.3.0
-	github.com/stretchr/testify v1.10.0
+	github.com/stretchr/testify v1.12.1
 	github.com/swaggo/http-swagger/v2 v2.0.1
 	github.com/swaggo/swag v1.16.2
 	github.com/tidwall/gjson v1.18.0
@@ -392,7 +392,6 @@ require (
 	github.com/pion/transport/v2 v2.2.10 // indirect
 	github.com/pion/transport/v3 v3.0.7 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/power-devops/perfstat v0.0.0-20220216144756-c35f1ee13d7c // indirect
 	github.com/prometheus/procfs v0.15.1 // indirect
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 // indirect
@@ -467,4 +466,13 @@ require (
 	howett.net/plist v1.0.0 // indirect
 	kernel.org/pub/linux/libs/security/libcap/psx v1.2.73 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
+)
+
+require github.com/mark3labs/mcp-go v0.58.0
+
+require (
+	github.com/google/jsonschema-go v0.4.2 // indirect
+	github.com/santhosh-tekuri/jsonschema/v6 v6.0.2 // indirect
+	github.com/yosida95/uritemplate/v3 v3.0.2 // indirect
+	go.yaml.in/yaml/v3 v3.0.5 // indirect
 )
